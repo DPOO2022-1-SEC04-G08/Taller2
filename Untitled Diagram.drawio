@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-21T05:41:35.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3835.0 Safari/537.36" etag="ol1qgJfF-drx3kyNCtjf" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-21T05:47:01.226Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3835.0 Safari/537.36" etag="j-3lV2w6LEjL2P75H2xy" version="16.6.1" type="github">
   <diagram id="6SjnHrmw7U_hnrUAdcLT" name="Page-1">
     <mxGraphModel dx="2226" dy="783" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -197,13 +197,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NSK0_wLwRa2PUr08ak1v-19" value="Conductor" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-135" y="378" width="173" height="97" as="geometry" />
+          <mxGeometry x="-135" y="378" width="173" height="90" as="geometry" />
         </mxCell>
         <mxCell id="k5XxRQNL9i_wTMCsPTD--12" value="+ deuda: float" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NSK0_wLwRa2PUr08ak1v-19" vertex="1">
           <mxGeometry y="26" width="173" height="26" as="geometry" />
         </mxCell>
         <mxCell id="GQpwaOu7h-6CQK4Oy5rI-2" value="+ bonificacion: float&#xa;+ notasRecibidas : float[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="NSK0_wLwRa2PUr08ak1v-19" vertex="1">
-          <mxGeometry y="52" width="173" height="45" as="geometry" />
+          <mxGeometry y="52" width="173" height="38" as="geometry" />
         </mxCell>
         <mxCell id="GQpwaOu7h-6CQK4Oy5rI-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="1" source="_v_6MPIKIYaDayUwwzO5-1" target="GQpwaOu7h-6CQK4Oy5rI-58" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -523,6 +523,12 @@
           <mxGeometry x="122.00428571428532" y="512" as="geometry">
             <mxPoint x="-213" y="-181" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mi6PXNNQGqWqxz6OcjHv-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.116;entryY=0.026;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.597;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="GQpwaOu7h-6CQK4Oy5rI-2" target="GQpwaOu7h-6CQK4Oy5rI-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mi6PXNNQGqWqxz6OcjHv-38" value="historialUbicaciones&amp;nbsp;&lt;br&gt;1..*" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="32" y="562.9971428571429" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
