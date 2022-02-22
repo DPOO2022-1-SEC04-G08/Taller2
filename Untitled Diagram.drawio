@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-22T23:24:16.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3835.0 Safari/537.36" etag="AN2lbYi4j3Q-a0RtmVTn" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-22T23:25:18.021Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3835.0 Safari/537.36" etag="7QtZs-rBBet6F2SLUxTH" version="16.6.1" type="github">
   <diagram id="6SjnHrmw7U_hnrUAdcLT" name="Page-1">
     <mxGraphModel dx="2463" dy="1313" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,13 +84,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xFhhPgqsHEsZ-JBTRw54-11" value="pasajero" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="374" y="334" width="199" height="131" as="geometry" />
+          <mxGeometry x="374" y="334" width="201" height="145" as="geometry" />
         </mxCell>
         <mxCell id="p-8QRYcvky3vpSZ8gG1q-4" value="+ notasRecibidas : float[]" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="xFhhPgqsHEsZ-JBTRw54-11">
-          <mxGeometry y="26" width="199" height="17" as="geometry" />
+          <mxGeometry y="26" width="201" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="p-8QRYcvky3vpSZ8gG1q-3" value="+ pedirViaje(Posicion) : viaje&lt;br&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400&quot;&gt;+ reportarProblema() : boolean&lt;br&gt;+ getTarjetaCredito() : tarjetaCredito&lt;br&gt;+ getUbicacion() : Posicion&lt;br&gt;+ getHistorialViajes() : viaje[]&lt;br&gt;+ getNotasRecibidas(): float[]&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="xFhhPgqsHEsZ-JBTRw54-11">
-          <mxGeometry y="43" width="199" height="88" as="geometry" />
+        <mxCell id="p-8QRYcvky3vpSZ8gG1q-3" value="+ pedirViaje(Posicion) : viaje&lt;br&gt;&lt;span style=&quot;font-family: &amp;#34;helvetica&amp;#34; ; font-size: 12px ; font-style: normal ; font-weight: 400&quot;&gt;+ reportarProblema() : boolean&lt;br&gt;+ getTarjetaCredito() : tarjetaCredito&lt;br&gt;+ getUbicacion() : Posicion&lt;br&gt;+ getHistorialViajes() : viaje[]&lt;br&gt;+ getNotasRecibidas(): float[]&lt;br&gt;+ notarViaje(viajeEnCurso)&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="xFhhPgqsHEsZ-JBTRw54-11">
+          <mxGeometry y="43" width="201" height="102" as="geometry" />
         </mxCell>
         <mxCell id="8bKeLV1RBKHs6_vVbSdt-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=open;endFill=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
